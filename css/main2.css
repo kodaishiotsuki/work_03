@@ -1,0 +1,56 @@
+body {
+  padding-top: 450px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  position: relative;
+  background-image: url(../img/pexels-photo.jpg);
+}
+
+#target {
+  font-size: 100px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+#replay {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  top: 300px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#tweet {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+  top: 450px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+}
+#replay a,
+#tweet a {
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: darkslategrey;
+}
+
+.info,
+#result,
+#result_2 {
+  font-size: 30px;
+  font-weight: bold;
+}
